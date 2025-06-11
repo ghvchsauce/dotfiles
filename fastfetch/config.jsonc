@@ -1,0 +1,61 @@
+{
+  "modules": [
+    "title",
+    "separator",
+    {
+      "type": "os",
+      "key": "OS",
+      "keyColor": "blue",
+      "format": "{name} {version}"
+    },
+    {
+      "type": "kernel",
+      "key": "Kernel"
+    },
+    {
+        "type": "shell",
+        "key": "Shell"
+    },
+    {
+        "type": "terminal",
+        "key": "Terminal"
+    },
+    {
+        "type": "uptime",
+        "key": "Uptime"
+    },
+    {
+        "type": "packages",
+        "key": "Packages"
+    },
+    {
+        "type": "de",
+        "key": "DE"
+    },
+    {
+        "type": "wm",
+        "key": "WM"
+    },
+    {
+        "type": "cpu",
+        "key": "CPU"
+    },
+    {
+        "type": "gpu",
+        "key": "GPU"
+    },
+    {
+        "type": "disk",
+        "key": "Disk"
+    },
+    {
+      "type": "memory",
+      "key": "Memory",
+      "percent": {
+        "type": 3,
+        "green": 30,
+        "yellow": 70
+      }
+    }
+  ]
+}
